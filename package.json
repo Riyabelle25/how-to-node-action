@@ -1,0 +1,23 @@
+{
+  "name": "how-to-node-action",
+  "version": "1.0.0",
+  "description": "Custom Github action using NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build src/action.js -o dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Riyabelle25/how-to-node-action.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Riyabelle25/how-to-node-action/issues"
+  },
+  "homepage": "https://github.com/Riyabelle25/how-to-node-action#readme",
+  "devDependencies": {
+    "@vercel/ncc": "^0.33.3"
+  }
+}
